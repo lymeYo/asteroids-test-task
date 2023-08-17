@@ -15,7 +15,7 @@ const titleProps = {
   setViewStatus: (status: TviewStatus) => {}
 }
 
-test('render AsteroidsList component inside basket (with sending mood)', () => {
+test('render AsteroidsList component (сценарий при котором AsteroidsList рендерит заказанные астероиды - sending mood)', () => {
   render(<AsteroidsList {...asteroidsListProps} />)
   render(<Title {...titleProps} />)
 
