@@ -1,0 +1,14 @@
+{
+  "preset": "ts-jest",
+  "testEnvironment": "jsdom",
+  "transform": {
+    "^.+\\.[tj]sx?$": ["babel-jest", { "presets": ["@nrwl/react/babel"] }],
+    "\\.(jpg|jpeg|png|svg)$": "<rootDir>/pngTransformer.js"
+  },
+  "transformIgnorePatterns": ["node_modules/(?!(module))"],
+  "moduleDirectories": ["<rootDir>/src", "node_modules"],
+  "moduleNameMapper": {
+    "^@/(.*)$": "<rootDir>/src/$1",
+    "\\.(css|styl|less|sass|scss|png|jpg|ttf|woff|woff2)$": "identity-obj-proxy"
+  }
+}

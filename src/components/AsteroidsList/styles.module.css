@@ -1,0 +1,29 @@
+@media (min-width: 1024px) {
+  .with-padding {
+    padding: 0 300px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .body {
+    padding: 0 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .body {
+    padding: 0 100px;
+  }
+}
+
+@media (max-width: 550px) {
+  .body {
+    padding: 0 15px 0 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  .body {
+    padding: 0 5px 0 25px;
+  }
+}

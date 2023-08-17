@@ -1,0 +1,33 @@
+.with-padding {
+  padding-top: 100px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.title-area {
+}
+.title {
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 36px;
+}
+.options {
+  margin-top: 10px;
+  display: flex;
+}
+.active {
+  font-weight: 600;
+}
+.inactive {
+  text-decoration: underline;
+  font-weight: 200;
+  cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+  .wrapper {
+    padding-top: 50px;
+  }
+}

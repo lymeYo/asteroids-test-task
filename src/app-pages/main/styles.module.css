@@ -1,0 +1,13 @@
+.main-wrapper {
+  display: grid;
+  grid-template-columns: 2fr minmax(400px, 2fr) 2fr;
+}
+@media (max-width: 1024px) {
+  .main-wrapper {
+    display: block;
+  } 
+}
+
+.basket-wrapper {
+  padding: 10px;
+}

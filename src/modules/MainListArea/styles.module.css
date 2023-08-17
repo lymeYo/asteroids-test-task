@@ -1,0 +1,12 @@
+.wrapper {
+  padding: 10px;
+}
+.title-area {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .title-area {
+    display: block;
+  }
+}

@@ -1,0 +1,26 @@
+.container {
+  position: relative;
+  height: 100%;
+}
+.wrapper {
+  position: sticky;
+  top: 0;
+  padding: 15px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.image-area-wrapper {
+  flex: 1 1 auto;
+}
+.image-area {
+  height: 100%;
+  width: 80%;
+  background: bottom / cover no-repeat url('../../ui//images//earth-planet.png');
+}
+
+@media (max-width: 1024px) {
+  .container {
+    display: none;
+  }
+}

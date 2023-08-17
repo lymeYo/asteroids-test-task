@@ -1,0 +1,15 @@
+.message {
+  font-size: 36px;
+  display: flex;
+  height: 100%;
+  color: #919191;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .message {
+    font-size: 18px;
+  }
+}

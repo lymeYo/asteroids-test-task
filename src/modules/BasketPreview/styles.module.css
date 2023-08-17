@@ -1,0 +1,73 @@
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.wrapper {
+  position: sticky;
+  top: 0;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.basket {
+  padding: 18px 20px;
+  display: inline-block;
+  background-color: var(--grey-base-clr);
+  border-radius: 30px;
+}
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28px;  
+  display: flex;
+  flex-direction: column;
+}
+.asteroids-amount {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.basket button {
+  margin-top: 30px;
+  background-color: var(--orange-base-clr);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  border-radius: 30px;
+  padding: 12px;
+}
+.basket button:hover {
+  background-color: var(--orange-hover-clr);
+}
+
+@media (max-width: 1024px) {
+  .container {
+    position: sticky;
+    bottom: 0;
+    height: auto;
+  }
+  .wrapper {
+    position: static;
+    height: auto;
+  }
+  .basket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-radius: 0%;
+  }
+  .title {
+    font-size: 18px;
+  }
+  .asteroids-amount {
+    font-size: 16px;
+  }
+  .basket button {
+    margin-top: 0;
+    font-size: 18px;
+  }
+}
